@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         mediaController.setAnchorView(videoView)
         mediaController.setMediaPlayer(videoView)
         videoView.setMediaController(mediaController)
-        videoView.setOnPreparedListener{
+        secondaryVideoView.setOnPreparedListener{
             it.setVolume(0f,0f)
             it.isLooping = true
         }
