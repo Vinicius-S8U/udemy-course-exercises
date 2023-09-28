@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "562294098994",
+    "firebase_url": "https://fir-kotlin-5881d-default-rtdb.firebaseio.com",
+    "project_id": "fir-kotlin-5881d",
+    "storage_bucket": "fir-kotlin-5881d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562294098994:android:215fafae41300caebe402b",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEFvZVzlb_AkgNPV6N2C4UVIirhIKayPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562294098994:android:c5e4453bc02f04c7be402b",
+        "android_client_info": {
+          "package_name": "com.example.firestore_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEFvZVzlb_AkgNPV6N2C4UVIirhIKayPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562294098994:android:a2cb73f5636f28c6be402b",
+        "android_client_info": {
+          "package_name": "com.example.journal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEFvZVzlb_AkgNPV6N2C4UVIirhIKayPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
