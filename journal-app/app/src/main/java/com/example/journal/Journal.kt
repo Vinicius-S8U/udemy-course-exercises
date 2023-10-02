@@ -1,6 +1,7 @@
 package com.example.journal
 
-import java.sql.Timestamp
+import com.google.firebase.Timestamp
+
 
 data class Journal(
     var userId: String,

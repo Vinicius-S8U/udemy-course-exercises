@@ -2,7 +2,9 @@ package com.example.journal
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.journal.databinding.JournalRowBinding
 
 class JournalRecyclerAdapter(var journalList: List<Journal>) :
@@ -28,6 +30,7 @@ class JournalRecyclerAdapter(var journalList: List<Journal>) :
             journalRowDescription.text = journal.thoughts
             journalRowUsername.text = journal.title
             journalRowDateCreated.text = "Posted at: ${journal.timeAdded}"
+            Glide.with(binding.root).load(journal.imageUrl).into(journalImageList)
         }
     }
 }
